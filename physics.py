@@ -41,6 +41,75 @@ def force():
   m2()
  elif response.upper()=="D":
   distance()
+def dimensional_calculator():
+            print("\nNote: This calculator gives dimensions, but the format might appear non-standard. For example, the area dimension may appear as [L²] but it will be represented as [LL]. You'll need to interpret these results accordingly.\n")
+            positivelength = "L"
+            positivemass = "M"
+            positivetime = "T"
+            positivekelvin = "K"
+            positiveampere = "A"
+            positivecandela = "Cd"
+            positivemole = "mol"
+            negativelength = "L⁻¹"
+            negativemass = "M⁻¹"
+            negativetime = "T⁻¹"
+            negativekelvin = "K⁻¹"
+            negativeampere = "A⁻¹"
+            acceleration = positivelength + negativetime + negativetime
+            force = positivemass + acceleration
+            area = positivelength + positivelength
+            pressure = force + negativelength + negativelength
+            velocity = positivelength + negativetime
+            momentum = positivemass + positivelength + negativetime
+            impulse = momentum
+            energy = force + positivelength
+            work = energy
+            power = energy + negativetime
+            stress = pressure
+            angular_velocity = negativetime
+            angular_acceleration = negativetime + negativetime
+            frequency = negativetime
+            moment_of_inertia = positivemass + positivelength + positivelength
+            surface_tension = force + negativelength
+            coefficient_of_viscosity = positivemass + negativetime + negativelength
+            specific_heat = energy + negativemass + negativekelvin
+            latent_heat = energy + negativemass
+            resistance = positivemass + positivelength + negativetime + negativetime + negativeampere + negativeampere
+            permittivity = negativeampere + negativeampere + positivelength + positivetime + positivetime
+            permeability = positivemass + positivelength + negativetime + negativetime + negativeampere + negativeampere 
+            print("Please type the name of the quantity whose dimension you want to know:")
+            print("Available quantities:")
+            print("Acceleration, Force, Area, Work, Pressure, Velocity, Momentum, Impulse, Energy, Power, Stress, Angular Velocity, Angular Acceleration, Frequency, Moment of Inertia, Surface Tension, Coefficient of Viscosity, Specific Heat, Latent Heat, Resistance, Permittivity, Permeability")
+            choco = input("Enter the name of the quantity you are looking for: ")
+            ultrachoco = choco.upper()
+            dimensions_dict = {
+                "ACCELERATION": acceleration,
+                "FORCE": force,
+                "AREA": area,
+                "PRESSURE": pressure,
+                "VELOCITY": velocity,
+                "MOMENTUM": momentum,
+                "IMPULSE": impulse,
+                "ENERGY": energy,
+                "WORK": work,
+                "POWER": power,
+                "STRESS": stress,
+                "ANGULAR VELOCITY": angular_velocity,
+                "ANGULAR ACCELERATION": angular_acceleration,
+                "FREQUENCY": frequency,
+                "MOMENT OF INERTIA": moment_of_inertia,
+                "SURFACE TENSION": surface_tension,
+                "COEFFICIENT OF VISCOSITY": coefficient_of_viscosity,
+                "SPECIFIC HEAT": specific_heat,
+                "LATENT HEAT": latent_heat,
+                "RESISTANCE": resistance,
+                "PERMITTIVITY": permittivity,
+                "PERMEABILITY": permeability,
+            }
+            if ultrachoco in dimensions_dict:
+                print(f"{choco.title()}: {dimensions_dict[ultrachoco]}")
+            else:
+                print("Invalid choice. Please check spelling or check if the calculator can process this quantity.")
 def contents():
  print("***Mechanics***")
  print("***Heat and thermodynamics***")
@@ -60,62 +129,16 @@ def contents():
   print("8) Elasticity")
   mechno=int(input("Please choose a number of a chapters to go further deep!: "))
   if mechno==1:
-   norn=input("Do you want to go with numerical calculator (Nc) or lesson summary (note) ? ")
-   if norn.upper()=="NC":
-    print("******************************************************WELCOME TO NUMERICAL CALCULATOR**************************************************")
-    print("-----------------------------------------------------================Menu==============-----------------------------------------------")
-    print("1) Dimensional calculator")
-    numchoice=int(input("Please type a number that corresponds to your need: "))
-    if numchoice==1:
-     print("Please note the following i made this calculator to give you answer but answer might be in form of some weaird looking dimension for example dimension of area is [L²] but calculator will give in form [MM]you have to multipley M*M yourself and Think its M²,Thankyou!")
-     positivelength="L"
-     positivemass="M"
-     positivetime="T"
-     negativelength="L⁻¹"
-     negativemass="M⁻¹"
-     negativetime="T⁻¹"
-     acceleration=positivelength+negativetime+negativetime
-     force=positivemass+acceleration
-     area=positivelength+positivelength
-     pressure=force+negativelength+negativelength
-     velocity=positivelength+negativetime
-     linearmomentium=positivemass+positivelength+negativetime
-     impulse=positivemass+positivelength+negativetime
-  elif mechno ==2:
-   print("For dev please fill content of no 2")
-  elif mechno==3:
-   print("For dev please fill content of no 3")
-  elif mechno==4:
-   print("For dev please fill content of no 4")
-  elif mechno==5:
-   print("For dev please fill content of no 5")
-  elif mechno==6:
-   print("For dev please fill content of no 6")
-  elif mechno==7:
-   print("For dev please fill content of no 7")
-  elif mechno==8:
-   print("For dev please fill content of no 8")
- else:
-    print("Print please choose correct number")
- if n=="HEAT AND THERMODYNAMICS":
-  print("1) Heat and temperature")
-  print("2) Thermal expansion")
-  print("3) Quantity of heat")
-  print("4) Rate of heat flow")
-  print("5) Ideal Gas")
-  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
-  if mechno==1:
-   print("For devs please enter content on no 1")
-  elif mechno ==2:
-   print("For dev please fill content of no 2")
-  elif mechno==3:
-   print("For dev please fill content of no 3")
-  elif mechno==4:
-   print("For dev please fill content of no 4")
-  elif mechno==5:
-   print("For dev please fill content of no 5")
-  else:
-   print("Print please choose correct number")
+    norn=input("Do you want to go with numerical calculator (Nc) or lesson summary (note) ? ")
+    if norn.upper()=="NC":
+     print("******************************************************WELCOME TO NUMERICAL CALCULATOR**************************************************")
+     print("-----------------------------------------------------================Menu==============-----------------------------------------------")
+     print("1) Dimensional calculator")
+     numchoice=int(input("Please type a number that corresponds to your need: "))
+     if numchoice==1:
+      dimensional_calculator() 
+    else:
+     print("Print please choose correct number")
  if n=="WAVE AND OPTICS":
   print("1) Reflection at curved mirror")
   print("2) Refraction at plane surfaces")
@@ -133,8 +156,8 @@ def contents():
    print("For dev please fill content of no 4")
   elif mechno==5:
    print("For dev please fill content of no 5")
- else:
-  print("Print please choose correct number")
+  else:
+   print("Print please choose correct number")
  if n=="Electricity and Magnetism":
   print("1) Electric Charges")
   print("2) Electric Feild")
@@ -152,21 +175,21 @@ def contents():
    print("For dev please fill content of no 4")
   elif mechno==5:
    print("For dev please fill content of no 5")
- else:
-  print("Print please choose correct number")
- if n=="MORDEN PHYSICS" or "MORDEN PHYSIC":
-  print("1) Nuclear Physics")
-  print("2) Solid and Semiconductor Devices")
-  print("3) Recent Trends in Physics")
-  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
-  if mechno==1:
-   print("For devs please enter content on no 1")
-  elif mechno ==2:
-   print("For dev please fill content of no 2")
-  elif mechno==3:
-   print("For dev please fill content of no 3")
- else:
-  print("Print please choose correct number")
+  else:
+   print("Print please choose correct number")
+  if n=="MORDEN PHYSICS":
+    print("1) Nuclear Physics")
+    print("2) Solid and Semiconductor Devices")
+    print("3) Recent Trends in Physics")
+    mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+    if mechno==1:
+     print("For devs please enter content on no 1")
+    elif mechno ==2:
+     print("For dev please fill content of no 2")
+    elif mechno==3:
+     print("For dev please fill content of no 3")
+    else:
+      print("Print please choose correct number")
 #def game():
 print("Do you want to do physics homework or play game")
 master=input("Type Physics/game and hit ENTER: ")
