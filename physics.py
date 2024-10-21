@@ -47,7 +47,7 @@ def contents():
  print("***Waves and optics***")
  print("***Electricity and Magnetism***")
  print("***Morden physics***")
- unit=input("Please type chapter name")
+ unit=input("Please type chapter name: ")
  n=unit.upper()
  if n=="MECHANICS":
   print("1) Units and Measurment")
@@ -60,7 +60,27 @@ def contents():
   print("8) Elasticity")
   mechno=int(input("Please choose a number of a chapters to go further deep!: "))
   if mechno==1:
-   print("For devs please enter content on no 1")
+   norn=input("Do you want to go with numerical calculator (Nc) or lesson summary (note) ? ")
+   if norn.upper()=="NC":
+    print("******************************************************WELCOME TO NUMERICAL CALCULATOR**************************************************")
+    print("-----------------------------------------------------================Menu==============-----------------------------------------------")
+    print("1) Dimensional calculator")
+    numchoice=int(input("Please type a number that corresponds to your need: "))
+    if numchoice==1:
+     print("Please note the following i made this calculator to give you answer but answer might be in form of some weaird looking dimension for example dimension of area is [L²] but calculator will give in form [MM]you have to multipley M*M yourself and Think its M²,Thankyou!")
+     positivelength="L"
+     positivemass="M"
+     positivetime="T"
+     negativelength="L⁻¹"
+     negativemass="M⁻¹"
+     negativetime="T⁻¹"
+     acceleration=positivelength+negativetime+negativetime
+     force=positivemass+acceleration
+     area=positivelength+positivelength
+     pressure=force+negativelength+negativelength
+     velocity=positivelength+negativetime
+     linearmomentium=positivemass+positivelength+negativetime
+     impulse=positivemass+positivelength+negativetime
   elif mechno ==2:
    print("For dev please fill content of no 2")
   elif mechno==3:
@@ -71,12 +91,12 @@ def contents():
    print("For dev please fill content of no 5")
   elif mechno==6:
    print("For dev please fill content of no 6")
- elif mechno==7:
+  elif mechno==7:
    print("For dev please fill content of no 7")
- elif mechno==8:
+  elif mechno==8:
    print("For dev please fill content of no 8")
  else:
-  print("Print please choose correct number")
+    print("Print please choose correct number")
  if n=="HEAT AND THERMODYNAMICS":
   print("1) Heat and temperature")
   print("2) Thermal expansion")
@@ -94,8 +114,8 @@ def contents():
    print("For dev please fill content of no 4")
   elif mechno==5:
    print("For dev please fill content of no 5")
- else:
-  print("Print please choose correct number")
+  else:
+   print("Print please choose correct number")
  if n=="WAVE AND OPTICS":
   print("1) Reflection at curved mirror")
   print("2) Refraction at plane surfaces")
@@ -149,12 +169,14 @@ def contents():
   print("Print please choose correct number")
 #def game():
 print("Do you want to do physics homework or play game")
-master=input("Type Physics/game and hit ENTER")
+master=input("Type Physics/game and hit ENTER: ")
 if master.upper()=="PHYSICS" or master.upper=="PHYSIC":
- content()
+ contents()
 elif master.upper()=="GAMES" or master.upper=="GAME":
  game()
 elif master.upper()=="PHYSICS/GAME":
  print("Please type only one Physic or game!")
+elif master.upper()=="EXIT":
+ print("*Exited*")
 else:
  print("Wrong spealling or out of option!!!")
