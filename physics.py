@@ -58,15 +58,103 @@ def contents():
   print("6) Circular motion")
   print("7) Gravity and Gravitation")
   print("8) Elasticity")
-  
-#def pendilum():
+  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+  if mechno==1:
+   print("For devs please enter content on no 1")
+  elif mechno ==2:
+   print("For dev please fill content of no 2")
+  elif mechno==3:
+   print("For dev please fill content of no 3")
+  elif mechno==4:
+   print("For dev please fill content of no 4")
+  elif mechno==5:
+   print("For dev please fill content of no 5")
+  elif mechno==6:
+   print("For dev please fill content of no 6")
+ elif mechno==7:
+   print("For dev please fill content of no 7")
+ elif mechno==8:
+   print("For dev please fill content of no 8")
+ else:
+  print("Print please choose correct number")
+ if n=="HEAT AND THERMODYNAMICS":
+  print("1) Heat and temperature")
+  print("2) Thermal expansion")
+  print("3) Quantity of heat")
+  print("4) Rate of heat flow")
+  print("5) Ideal Gas")
+  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+  if mechno==1:
+   print("For devs please enter content on no 1")
+  elif mechno ==2:
+   print("For dev please fill content of no 2")
+  elif mechno==3:
+   print("For dev please fill content of no 3")
+  elif mechno==4:
+   print("For dev please fill content of no 4")
+  elif mechno==5:
+   print("For dev please fill content of no 5")
+ else:
+  print("Print please choose correct number")
+ if n=="WAVE AND OPTICS":
+  print("1) Reflection at curved mirror")
+  print("2) Refraction at plane surfaces")
+  print("3) Refraction through prisms")
+  print("4) Lenes")
+  print("5) Dispersion")
+  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+  if mechno==1:
+   print("For devs please enter content on no 1")
+  elif mechno ==2:
+   print("For dev please fill content of no 2")
+  elif mechno==3:
+   print("For dev please fill content of no 3")
+  elif mechno==4:
+   print("For dev please fill content of no 4")
+  elif mechno==5:
+   print("For dev please fill content of no 5")
+ else:
+  print("Print please choose correct number")
+ if n=="Electricity and Magnetism":
+  print("1) Electric Charges")
+  print("2) Electric Feild")
+  print("3) Electric Potential")
+  print("4) Capacitors and Capacitance")
+  print("5) Direct Current Circuit")
+  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+  if mechno==1:
+   print("For devs please enter content on no 1")
+  elif mechno ==2:
+   print("For dev please fill content of no 2")
+  elif mechno==3:
+   print("For dev please fill content of no 3")
+  elif mechno==4:
+   print("For dev please fill content of no 4")
+  elif mechno==5:
+   print("For dev please fill content of no 5")
+ else:
+  print("Print please choose correct number")
+ if n=="MORDEN PHYSICS" or "MORDEN PHYSIC":
+  print("1) Nuclear Physics")
+  print("2) Solid and Semiconductor Devices")
+  print("3) Recent Trends in Physics")
+  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
+  if mechno==1:
+   print("For devs please enter content on no 1")
+  elif mechno ==2:
+   print("For dev please fill content of no 2")
+  elif mechno==3:
+   print("For dev please fill content of no 3")
+ else:
+  print("Print please choose correct number")
 #def game():
 print("Do you want to do physics homework or play game")
 master=input("Type Physics/game and hit ENTER")
-if master.upper()=="PHYSICS":
+if master.upper()=="PHYSICS" or master.upper=="PHYSIC":
  content()
-elif master.upper()=="GAMES":
+elif master.upper()=="GAMES" or master.upper=="GAME":
  game()
 elif master.upper()=="PHYSICS/GAME":
- print("WTF i ment type Physics or Game only one fool seems like you are not braniny guy to do physis go play game")
- game()
+ print("Please type only one Physic or game!")
+else:
+ print("Wrong spealling or out of option!!!")
