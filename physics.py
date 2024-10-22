@@ -137,9 +137,23 @@ def contents():
      numchoice=int(input("Please type a number that corresponds to your need: "))
      if numchoice==1:
       dimensional_calculator() 
-    else:
-     print("Print please choose correct number")
- if n=="WAVE AND OPTICS":
+     else:
+      print("Print please choose correct number")
+    elif norn.upper()=="NOTE":
+      print("*****************************************************Definations**********************************************")
+      print("<<MEASURMENT>>")
+      print("The process of comparing unknown physical quantity with known fixed quantity is called measurment")
+      print("<<PHYSICAL QUANTITIE>>")
+      print("Def of physical quantity")
+      print("<<DIMENSIONALESS VARIABLE>>")
+      print("The physical quantity which no dimension but are variables with condition are known as dimensionless variable")
+      print("<<DIMENSONLESS CONSTANT>>")
+      print("The physical quantities which nither have dimension nor variables are known as dimensionless constant")
+      print("<<DIMENSIONAL VARIABLE>>")
+      print("The quntity which have dimension and are variable with condition are known as dimensional variable")
+      print("<<DIMENSIONAL CONSTANT>>")
+      print("The physical quantities which have dimension ansd are constant are known as dimensional constant")
+ if n=="WAVES AND OPTICS":
   print("1) Reflection at curved mirror")
   print("2) Refraction at plane surfaces")
   print("3) Refraction through prisms")
