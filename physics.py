@@ -153,6 +153,12 @@ def contents():
       print("The quntity which have dimension and are variable with condition are known as dimensional variable")
       print("<<DIMENSIONAL CONSTANT>>")
       print("The physical quantities which have dimension ansd are constant are known as dimensional constant")
+      print("<<CGS>>")
+      print("The system in which length is mesured in centimeter mass in gram and time in seconds is known as CGS system")
+      print("<<MKS>>")
+      print("The system in which length is measured in meter mass in kilogram and time in second is known as MKS system")
+      print("<<FPS>>")
+      print("The system in which length is measured in foot mass in pound and time in second is known as FPS system")
  if n=="WAVES AND OPTICS":
   print("1) Reflection at curved mirror")
   print("2) Refraction at plane surfaces")
