@@ -1,0 +1,26 @@
+Measurement
+The process of comparing an unknown physical quantity with a known fixed quantity is called measurement. It involves determining the magnitude of a physical quantity by using a standard unit.
+
+Physical Quantity
+A physical quantity is any quantity that can be measured. It can be either fundamental (e.g., length, mass, time) or derived (e.g., velocity, force, energy) from the basic quantities. Physical quantities have both magnitude and dimension.
+
+Dimensionless Variable
+A dimensionless variable is a physical quantity that has no dimension but behaves as a variable under certain conditions. These variables do not have any physical units and are often used in formulas for scaling or similarity.
+
+Dimensionless Constant
+A dimensionless constant is a physical quantity that neither has a dimension nor a variable. These constants are usually numbers that do not change, such as the mathematical constant pi (π), which is used in many physical equations.
+
+Dimensional Variable
+A dimensional variable is a physical quantity that has a dimension and can change its value under different conditions. Examples include temperature, pressure, and velocity, which all have units and can vary based on external factors.
+
+Dimensional Constant
+A dimensional constant is a physical quantity that has a dimension and is constant. An example is the gravitational constant (G), which is used in equations describing gravitational force.
+
+CGS System
+The CGS (Centimeter-Gram-Second) system is a system of measurement in which length is measured in centimeters, mass in grams, and time in seconds. It is mainly used in some scientific fields.
+
+MKS System
+The MKS (Meter-Kilogram-Second) system is a system of measurement in which length is measured in meters, mass in kilograms, and time in seconds. It is the most commonly used system for scientific work worldwide.
+
+FPS System
+The FPS (Foot-Pound-Second) system is a system of measurement in which length is measured in feet, mass in pounds, and time in seconds. It is used primarily in the United States and some other countries for everyday measurements.

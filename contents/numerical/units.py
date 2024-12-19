@@ -1,13 +1,4 @@
-from colorama import Fore
-G=Fore.GREEN
-B=Fore.BLUE
-R=Fore.RED
-
-def quitter():
-  res=input("Do you wish to continue Y/n: ")
-  if res.lower()=="n":
-    return True
-  
+import common
 def dimensional_calculator():
   print("\nNote: This calculator gives dimensions, but the format might appear non-standard. For example, the area dimension may appear as [L²] but it will be represented as [LL]. You'll need to interpret these results accordingly.\n")
   while True:
@@ -78,19 +69,10 @@ def dimensional_calculator():
         print(f"{choco.title()}: {dimensions_dict[ultrachoco]}")
     else:
         print("Invalid choice. Please check spelling or check if the calculator can process this quantity.")
-    if quitter()==True:
+    if common.quitter()==True:
       break
-def mech():
-  print("1) Units and Measurment")
-  print("2) Vectors and Scalars")
-  print("3) Kinematics")
-  print("4) Dynamics")
-  print("5) Work,Energy and Power")
-  print("6) Circular motion")
-  print("7) Gravity and Gravitation")
-  print("8) Elasticity")
-  mechno=int(input("Please choose a number of a chapters to go further deep!: "))
-  if mechno==1:
+
+def units():
     norn=input("Do you want to go with numerical calculator (Nc) or lesson summary (note) ? ")
     if norn.upper()=="NC":
      print("******************************************************WELCOME TO NUMERICAL CALCULATOR**************************************************")
@@ -103,21 +85,4 @@ def mech():
       print("Print please choose correct number")
     elif norn.upper()=="NOTE":
       print("*****************************************************Definations**********************************************")
-      print("<<MEASURMENT>>")
-      print("The process of comparing unknown physical quantity with known fixed quantity is called measurment")
-      print("<<PHYSICAL QUANTITIE>>")
-      print("Def of physical quantity")
-      print("<<DIMENSIONALESS VARIABLE>>")
-      print("The physical quantity which no dimension but are variables with condition are known as dimensionless variable")
-      print("<<DIMENSONLESS CONSTANT>>")
-      print("The physical quantities which nither have dimension nor variables are known as dimensionless constant")
-      print("<<DIMENSIONAL VARIABLE>>")
-      print("The quntity which have dimension and are variable with condition are known as dimensional variable")
-      print("<<DIMENSIONAL CONSTANT>>")
-      print("The physical quantities which have dimension ansd are constant are known as dimensional constant")
-      print("<<CGS>>")
-      print("The system in which length is mesured in centimeter mass in gram and time in seconds is known as CGS system")
-      print("<<MKS>>")
-      print("The system in which length is measured in meter mass in kilogram and time in second is known as MKS system")
-      print("<<FPS>>")
-      print("The system in which length is measured in foot mass in pound and time in second is known as FPS system")
+units()

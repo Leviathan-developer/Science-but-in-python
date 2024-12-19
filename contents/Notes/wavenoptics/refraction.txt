@@ -1,0 +1,159 @@
+Refraction of light
+
+    The phenomenon of beding of light as it moves from one medium to another is called Refraction of light
+
+Laws of Refraction of light
+    1. The incident ray, reflected ray and normal ray lie in same plane.
+    2. When light travels from rare medium to denser medium it must bend toward normal.
+    3. When Light travels from denser medium to rarer medium it must bend away 
+    4. The ratio of the sine of the angle of incidence to the sine of angle of the sine of angle of refraction is constant for two given media.
+
+Formula:
+µ=sin(i)/sin(r)
+
+Refrective index
+    The ratio of velocity of light in the vaccum to the velocity of light in other medium is called absolute refrective index
+
+µ=c/v 
+
+Relation of relative relative index
+
+Two media
+    If a light travels from a medium 'A' to another medium 'B'. The refrective index can be said as: 
+
+AµB=Sini/sinr ---(1)
+
+This is refractive index of medium b with respect to medium a 
+    BµA=Sinr/Sini ---(2)
+
+This is refractive index if medium A with respect to medium B
+
+Multipling (1) and (2), we have
+
+    AµB.BµA = sinr/sini * sinr/sini =1
+    AµB= 1/ BµA
+
+Note: The refrective index given in questions asked in exams is with respect to air
+
+Three media:
+    Fig: 15.2 ---(Pioner Physics book)
+
+Here the ray travels from a,b,c and returns to a 
+
+For refractive index
+    aµb=sini/sinr
+    bµc=sinr1/sinr2
+    cµa=sinr/sini
+
+Multiplying all index
+    aµb.bµc.cµa=sini/sinr1*sinr1/sinr2*sinr2/sini=1
+    aµb.bµc=1/cµa
+    aµc=aµb.bµc [?: aµc=1/cµa from previous derivation]
+
+Lateral shift
+    The perpendicular distance between the produced incident ray and the emergent ray is called lateral shift.
+
+    It is denoted by 'p' and
+    p=t/cosr.sin(i-r)
+
+    Fig:15.3
+    Consider PQRS be the glass slab of thickness 't' from the figure
+    In traigle BN'C 
+    Cos(r)=b/h=PS/BC=t/BC
+    BC=t/cosr
+
+    In traingle BCM
+    sin(i-r)=p/h=CM/BC
+    BC=CM/sin(i-r)
+
+    We have;
+    CM/sin(i-r)=t/cosr
+    CM=(t/cosr)*sin(i-r)
+
+    Here CM is the lateral shift (P)
+    Hence,
+    P=(t/cosr)*Sin(i-r)
+
+    Case(<i=90.deg)
+    P=t/cosr (sin90-r)
+    P=(t/cosr)*cosr
+    P=t
+
+    Here CM is the lateral shif(P)
+    Hence,
+    P=(t/cosr)*sin(i-r)
+
+    Case(<i=90.deg)
+    P=(t/cosr)*(sin90-r)
+    P=(t/cosr)*cosr
+    P=t
+
+    Here; we observe that as the angle increases and tends to 90.deg the lateral shift tends to being equal to thickness of the glass slab
+
+Real and Apparent depth
+    The actual depth of a object is called Real depth.
+    The observed depth of a object is called Apparent depth
+
+    Prove d=t(1-(1/u))
+    Fig 15.5 ---(Pioner physics book)
+    Let i is the angle of incidence in medium and r is the angle of refrection in air.
+    Then From Snell's Law,
+    1/µ = sini/sinr
+    µ=sinr/sini
+    
+    In traingle ABO , sini = AB/OB
+    In traingle ABI , sinr = AB/IB
+
+    Then, µ=sinr/sini=(AB/IB)/(AB/OB)=OB/IB
+
+    For small angle of incidence, B is very close to A, then
+    apparent depth = t/µ
+    The apparent displacement of shift of the object is given by
+    d= OI =OA-AI =Real depth - Apperent depth=t-(t/µ)
+    d=t(1-(1/µ))
+
+Critical angle
+
+   The angle of incidence for which angle of refraction is 90.deg is called critical angle.
+   This occurs when light goes from denser to rarer. It is denoted by C.
+
+   Relation between critical angle and refrective index:
+
+   µ=1/sinc
+
+   Prove:
+    Here;
+    sini/sinr=1/µ [gµa=sini/sinr and aµg=1/gµa so; 1/gµa=sini/sinr]
+    sinc/sin90=1/µ, critical angle 90.deg 
+    sinc=1/µ
+    µ=1/sinc (proved)
+
+Total Internal Reflection (TIR)
+
+Definition:
+    TIR occurs when light traveling from a denser medium to a rarer medium is completely reflected back into the denser medium.
+
+Conditions for TIR:
+    1. The light must travel from a denser medium (higher refractive index, mu1) to a rarer medium (lower refractive index, mu2).
+   mu1 > mu2
+    2. The angle of incidence (i) in the denser medium must be greater than the critical angle (ic).
+
+Critical Angle:
+    The critical angle (ic) is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium becomes 90 degrees.
+
+Formula:
+    sin(ic) = mu2 / mu1
+
+Where:
+    mu1 = refractive index of the denser medium
+    mu2 = refractive index of the rarer medium
+
+Explanation:
+    If i < ic: Light is refracted into the rarer medium.
+    If i = ic: Light grazes along the boundary (refraction angle = 90 degrees).
+    If i > ic: Light is completely reflected back, causing TIR.
+
+Applications of TIR:
+    1. Optical Fibers: Light signals are guided through fibers by repeated TIR.
+    2. Prisms: Used in binoculars and periscopes to reflect light with no loss.
+    3. Diamond Sparkle: High refractive index of diamond results in a small critical angle, causing multiple TIR and enhanced brilliance.

@@ -1,0 +1,135 @@
+Dynamics
+
+Definition
+Dynamics is the branch of physics that deals with the relationship between motion and the forces affecting it.
+It explains why objects move the way they do and focuses on the causes of motion.
+Key Concepts in Dynamics
+1. Force
+A push or pull that changes an object’s state of motion or rest.
+Formula:
+F = ma
+Where F = force, m = mass, a = acceleration.
+2. Newton’s Laws of Motion
+First Law (Law of Inertia):
+
+An object remains at rest or in uniform motion unless acted upon by an external force.
+Key Concept: Inertia depends on mass.
+Second Law:
+
+The rate of change of momentum of an object is directly proportional to the net force acting on it and occurs in the direction of the force.
+Formula:
+F = ma
+(Force = Mass × Acceleration)
+Third Law:
+
+For every action, there is an equal and opposite reaction.
+Example: Rocket propulsion.
+3. Momentum
+The quantity of motion an object possesses.
+Formula:
+p = mv
+Where p = momentum, m = mass, v = velocity.
+4. Impulse
+The change in momentum of an object when a force is applied over a time interval.
+Formula:
+Impulse = F × Δt = Δp
+Where Δp = change in momentum.
+5. Friction
+A resistive force that opposes the motion of an object.
+Types of friction:
+Static Friction: Prevents motion.
+Kinetic Friction: Opposes moving objects.
+Formula:
+F_friction = μN
+Where μ = coefficient of friction, N = normal force.
+6. Work-Energy Principle
+Work done on an object is equal to the change in its kinetic energy.
+Formula:
+W = ΔKE = (1/2)mv_f² - (1/2)mv_i²
+7. Circular Motion
+Centripetal Force: The force acting towards the center of the circular path.
+Formula:
+F_c = mv² / r
+Where m = mass, v = velocity, r = radius of the circle.
+8. Gravitational Force
+The force of attraction between two masses.
+Formula:
+F_g = G * (m₁ * m₂) / r²
+Where G = gravitational constant, m₁ and m₂ = masses, r = distance between them.
+Key Formulas
+Force:
+F = ma
+
+Momentum:
+p = mv
+
+Impulse:
+Impulse = F × Δt = Δp
+
+Friction:
+F_friction = μN
+
+Work:
+W = F × d × cosθ
+Where d = displacement, θ = angle between force and displacement.
+
+Kinetic Energy:
+KE = (1/2)mv²
+
+Potential Energy:
+PE = mgh
+Where h = height above reference point.
+
+Power:
+P = W / t
+
+Centripetal Force:
+F_c = mv² / r
+
+Gravitational Force:
+F_g = G * (m₁ * m₂) / r²
+
+Key Points
+Inertia:
+Heavier objects resist changes in motion more than lighter ones.
+
+Free-Body Diagrams:
+Essential for solving problems in dynamics. They help visualize forces acting on an object.
+
+Friction:
+
+Static friction is usually greater than kinetic friction.
+Friction depends on the nature of surfaces in contact and the normal force.
+Energy Conservation:
+Total mechanical energy (kinetic + potential) is conserved in the absence of non-conservative forces (like friction).
+
+Centripetal Force:
+It is not a new force; it is provided by forces like tension, gravity, or friction depending on the situation.
+
+Interesting Questions and Answers
+Q1: Why does a rocket move upward?
+Answer: The rocket moves upward due to the reaction force exerted by the gases expelled downward (Newton’s Third Law).
+Q2: Why do objects eventually stop moving if Newton’s First Law says they should continue?
+Answer: External forces like friction and air resistance oppose motion and cause the object to stop.
+Q3: What is the difference between mass and weight?
+Answer: Mass is the amount of matter in an object (constant everywhere). Weight is the gravitational force acting on an object, given by W = mg.
+Q4: How does the force of friction change with the weight of an object?
+Answer: Friction increases with the normal force (weight for horizontal surfaces), as F_friction = μN.
+Q5: Why do satellites stay in orbit?
+Answer: Satellites are in free fall towards Earth, but their tangential velocity ensures they keep "missing" the surface, resulting in orbit.
+Tips for Dynamics
+Master Free-Body Diagrams:
+Identify all forces acting on an object and resolve them into components.
+
+Use Newton’s Laws Effectively:
+
+Apply the second law (F = ma) to analyze forces.
+Use the third law to understand interactions between objects.
+Check Units:
+Ensure all units are consistent in your calculations.
+
+Understand Friction:
+Differentiate between static and kinetic friction and their applications.
+
+Grasp Energy Concepts:
+Use energy conservation to solve problems where forces are difficult to analyze.
