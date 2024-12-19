@@ -1,4 +1,4 @@
-import common
+import contents.common as common
 def dimensional_calculator():
   print("\nNote: This calculator gives dimensions, but the format might appear non-standard. For example, the area dimension may appear as [L²] but it will be represented as [LL]. You'll need to interpret these results accordingly.\n")
   while True:

@@ -1,5 +1,8 @@
 import importlib
-
+from colorama import Fore
+G=Fore.GREEN
+B=Fore.BLUE
+R=Fore.RED
 def quitter():
   res=input("Do you wish to continue Y/n: ")
   if res.lower()=="n":
