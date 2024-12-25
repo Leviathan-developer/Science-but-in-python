@@ -22,15 +22,15 @@ def call(files,numericals):
             module=importlib.import_module("contents.numerical."+numericals)
             module.main()
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"{R}Error: {e}")
         break
     elif re.startswith("NO"):
         filecontent("contents/Notes/"+files+".txt")
         break
     else:
-      print("No such options!!!")
+      print(R+"No such options!!!")
       continue
 def filecontent(path):
     with open(path,'r') as file:
         content=file.read()
-        print(content)
+        print(B+content)

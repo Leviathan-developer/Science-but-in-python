@@ -5,6 +5,7 @@ import contents.morden as morden
 import contents.optics as optics
 import contents.game as game
 import contents.banner as banner
+import contents.game as game
 import contents.common as common
 from colorama import Fore
 import time
@@ -66,7 +67,7 @@ while True:
         time.sleep(1)
     break
   elif master.startswith("GA"):
-   game.gm()
+    game.main()
   elif master.upper()=="PHYSICS/GAME/EXIT":
     print("Please type only one Physic or game!")
   elif master.upper()=="EXIT":

@@ -73,8 +73,6 @@ def dimensional_calculator():
       break
 
 def units():
-    norn=input("Do you want to go with numerical calculator (Nc) or lesson summary (note) ? ")
-    if norn.upper()=="NC":
      print("******************************************************WELCOME TO NUMERICAL CALCULATOR**************************************************")
      print("-----------------------------------------------------================Menu==============-----------------------------------------------")
      print("1) Dimensional calculator")
@@ -83,6 +81,4 @@ def units():
       dimensional_calculator() 
      else:
       print("Print please choose correct number")
-    elif norn.upper()=="NOTE":
-      print("*****************************************************Definations**********************************************")
 units()
