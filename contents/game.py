@@ -1,5 +1,6 @@
 #chess
 import colorama as clr
+import contents.banner as banners
 import time
 R=clr.Fore.RED
 B=clr.Fore.BLUE
@@ -44,17 +45,11 @@ for i in range(8):
     k-=1
 def banner():
     banner = [
-    f"{clr.Fore.BLUE}██      ███████ ██    ██ ██ ████████ ██   ██  █████  ███    ██",
-    f"{clr.Fore.BLUE}██      ██       ██  ██  ██    ██    ██   ██ ██   ██ ████   ██",
-    f"{clr.Fore.LIGHTBLUE_EX}██      █████    ██  ██  ██    ██    ███████ ███████ ██ ██  ██",
-    f"{clr.Fore.RED}██      ██        ████   ██    ██    ██   ██ ██   ██ ██  ██ ██",
-    f"{clr.Fore.LIGHTRED_EX}███████ ███████    ██    ██    ██    ██   ██ ██   ██ ██   ████",
-    f"="*85,
-    f"{clr.Fore.GREEN}██████   ███████  ████████   █████████  ████████  ███       ██ ███████████ █████████",
-    f"{clr.Fore.GREEN}██   ██  ██   ██  ██         ██         ██        ██ ██     ██     ██      ██",
-    f"{clr.Fore.LIGHTGREEN_EX}██████   ███████  ████████   █████████  ████████  ██   ██   ██     ██      █████████",
-    f"{clr.Fore.LIGHTRED_EX}██       ██ ██    ██                ██  ██        ██     ██ ██     ██             ██",
-    f"{clr.Fore.LIGHTRED_EX}██       ██  ███  ████████   █████████  ████████  ██       ███     ██      █████████",
+    f"{clr.Fore.YELLOW}██████   ███████  ████████   █████████  ████████  ███       ██ ███████████ █████████",
+    f"{clr.Fore.YELLOW}██   ██  ██   ██  ██         ██         ██        ██ ██     ██     ██      ██",
+    f"{clr.Fore.YELLOW}██████   ███████  ████████   █████████  ████████  ██   ██   ██     ██      █████████",
+    f"{clr.Fore.YELLOW}██       ██ ██    ██                ██  ██        ██     ██ ██     ██             ██",
+    f"{clr.Fore.YELLOW}██       ██  ███  ████████   █████████  ████████  ██       ███     ██      █████████",
     f"="*85,
     f" ♟️♟️♟️♟️♟️",
     f"♟️♟️   ♟️♟️",
@@ -75,6 +70,7 @@ def banner():
     f"{Y}="*85,
     f" "*85,
     ]
+    banners.anibanner()
     for line in banner:
         print(line)
         time.sleep(0.2)
