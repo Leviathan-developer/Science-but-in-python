@@ -17,18 +17,7 @@ def quitter():
   res=input("Do you wish to continue Y/n: ")
   if res.lower()=="n":
     return True
-
-def force():
-  while True:
-    mass1=int(input("Enter mass of a body: "))
-    mass2=int(input("Enter mass of a second body: "))
-    dis=int(input("Enter distance of a between two bodies (from center): "))
-    force=(mass1*mass2*0.0000000000667430)/dis
-    print("The attraction due to gravity between two bodies =",force)
-    print("Where if there is e it means *10^")
-    if quitter()==True:
-      break
- 
+  
 def contents():
   print("***Mechanics***")
   print("***Heat and thermodynamics***")

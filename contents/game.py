@@ -372,7 +372,6 @@ def main():
                     position=input("Select the peice position: ")
                     target=input("Please enter you target position: ")
                     targeti,targetj=convertor(target)
-                    print("Targetj=",targetj)
                     positionpeice=product[position]
                     if positionpeice[0]==trun[0]:
                         if rule(position,target)==True:
