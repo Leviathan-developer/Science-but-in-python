@@ -7,6 +7,7 @@ import contents.game as game
 import contents.banner as banner
 import contents.game as game
 import contents.common as common
+import contents.exam as exam
 from colorama import Fore
 import time
 
@@ -41,7 +42,7 @@ def contents():
 banner.anibanner()
 print(G+"Do you want to do physics homework or play game for a while?")
 while True:
-  master=input("Type Physics/game/exit and hit ENTER: ")
+  master=input("Type Physics/game/exam/exit and hit ENTER: ")
   master=master.upper()
   if master.startswith("PH"):
     while True:
@@ -57,11 +58,13 @@ while True:
     break
   elif master.startswith("GA"):
     game.main()
-  elif master.upper()=="PHYSICS/GAME/EXIT":
-    print("Please type only one Physic or game!")
+  elif master=="PHYSICS/EXAM/GAME/EXIT":
+    print("Please type only one Physic or game or exam!")
   elif master.upper()=="EXIT":
     print("*Exited*")
     break
+  elif master.upper()=="EXAM":
+    exam.main()
   else:
     print("Wrong spealling or out of option!!!")
     continue
