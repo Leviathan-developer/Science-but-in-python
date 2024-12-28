@@ -18,15 +18,15 @@ def main():
                         break
                     else:
                         answer=input(g+"Please enter a answer: ")
-                        with open("contents/question.txt","a") as que:
+                        with open("contents/Notes/question.txt","a") as que:
                             que.write(question+"\n")
-                        with open("contents/answer.txt","a") as ans:
+                        with open("contents/Notes/answer.txt","a") as ans:
                             ans.write(answer+"\n")
 
             elif mode.startswith("E"):
-                with open("contents/question.txt","r") as f:
+                with open("contents/Notes/question.txt","r") as f:
                     questionline=f.readlines()
-                with open("contents/answer.txt",'r') as an:
+                with open("contents/Notes/answer.txt",'r') as an:
                     answerline=an.readlines()
                 while True:
                     fate=random.randint(0,len(questionline)-1)
