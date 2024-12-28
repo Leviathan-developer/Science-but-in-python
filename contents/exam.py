@@ -18,31 +18,33 @@ def main():
                         break
                     else:
                         answer=input(g+"Please enter a answer: ")
-                        with open("question.txt","a") as que:
+                        with open("contents/question.txt","a") as que:
                             que.write(question+"\n")
-                        with open("answer.txt","a") as ans:
+                        with open("contents/answer.txt","a") as ans:
                             ans.write(answer+"\n")
 
             elif mode.startswith("E"):
-                with open("question.txt","r") as f:
+                with open("contents/question.txt","r") as f:
                     questionline=f.readlines()
-                with open("answer.txt",'r') as an:
+                with open("contents/answer.txt",'r') as an:
                     answerline=an.readlines()
                 while True:
                     fate=random.randint(0,len(questionline)-1)
                     print(b+questionline[fate])
                     while True:
-                        choice=input(g+"Please enter y to reveal answer or s to skip:  ")
+                        choice=input(g+"Please enter y to reveal answer or s to skip or exit:  ")
                         choice=choice.lower()
-                        if choice in ["y","s"]:
+                        if choice in ["y","s","exit"]:
                             break
                         else:
-                            print("Please type y or s only!")
+                            print("Please type y or s or exit only!")
                             continue
                     if choice=="y":
                         print(y+answerline[fate])
                     elif choice=="s":
                         continue
+                    elif choice=="exit":
+                        break
                     yno=input(g+"Do you want to continue? Y/n: ")
                     if yno.lower().startswith("n"):
                         break

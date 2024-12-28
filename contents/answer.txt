@@ -1,0 +1,3 @@
+The standard amount of physical quantity choose to measure the physical quantity of the same kind is called a physical unit
+The numerical value (n) or a physical quantity is inversely proportional to the size of the unit (u) i.e, n directly propotional to  1/u or nu=constant.
+In si , all derived units can be obtained be obtained by multipling and dividing the basic and supplementary units and no numerical factors are required to introduced. So SI is a coherent system of units
